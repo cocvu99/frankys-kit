@@ -1,4 +1,4 @@
-# Franky's Kit 🏴‍☠️
+# Franky's Kit 
 
 **Franky's Kit** is an "Infrastructure as Code" solution to provision an ephemeral Kubernetes cluster on AWS. It uses **Terraform** to request cheap **Spot Instances** and automatically bootstraps the nodes with `containerd` and `kubeadm`.
 
@@ -56,7 +56,7 @@ Copy the kubeadm join ... command output from the Master.
 
 SSH into each worker and run the join command (with sudo).
 
-### 3. Cleanup (Money Saver 💸)
+### 3. Cleanup (Money Saver)
 When you finish your lab, destroy all resources immediately:
 
 ```bash
