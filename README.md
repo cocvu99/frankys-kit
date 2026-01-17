@@ -65,7 +65,7 @@ terraform destroy -auto-approve
 
 Project Structure
 
-Plaintext
+```Plaintext
 frankys-kit/
 ├── terraform/
 │   ├── main.tf          # Core infrastructure (VPC, Spot Instances)
@@ -74,7 +74,7 @@ frankys-kit/
 │   └── scripts/
 │       └── setup.sh     # Bootstrapping (Containerd, Kubeadm, Swapoff)
 └── README.md
-
+```
 
 ⚠️ Note
 Data Persistence: This is an ephemeral lab. All data is lost upon terraform destroy.
