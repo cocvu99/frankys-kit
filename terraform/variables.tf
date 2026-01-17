@@ -5,7 +5,7 @@ variable "instance_type" {
 
 variable "spot_price" {
   description = "Max price you are willing to pay for Spot Instances"
-  default     = "0.03"
+  default     = "0.045"
 }
 
 variable "worker_count" {
